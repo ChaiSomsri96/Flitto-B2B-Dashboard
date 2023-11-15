@@ -1,0 +1,48 @@
+{
+   "name": "new-typeorm-project",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^14.0.14",
+      "ts-node": "8.10.2",
+      "typescript": "3.9.6"
+   },
+   "dependencies": {
+      "@types/bcryptjs": "^2.4.2",
+      "@types/body-parser": "^1.19.0",
+      "@types/cors": "^2.8.6",
+      "@types/jsonwebtoken": "^8.5.0",
+      "@types/multer": "^1.4.3",
+      "axios": "^0.19.2",
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.0",
+      "class-validator": "^0.12.2",
+      "cookie-session": "^1.4.0",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "fs": "0.0.1-security",
+      "google-auth-library": "^6.0.6",
+      "googleapis": "^59.0.0",
+      "https": "^1.0.0",
+      "jsonwebtoken": "^8.5.1",
+      "multer": "^1.4.2",
+      "path": "^0.12.7",
+      "pg": "^8.2.1",
+      "qs": "^6.9.4",
+      "reflect-metadata": "^0.1.13",
+      "request": "^2.88.2",
+      "ts-node-dev": "^1.0.0-pre.51",
+      "typeorm": "0.2.25",
+      "youtube-info": "^1.3.2",
+      "youtube-validate": "^1.2.4",
+      "youtube-video-info": "0.0.1"
+   },
+   "scripts": {
+      "tsc": "tsc",
+      "start": "ts-node ./src/index.ts",
+      "dev": "ts-node ./src/index.ts",
+      "cron": "ts-node ./src/cron.ts",
+      "prod": "tsc && node ./build/app.js",
+      "migration:run": "ts-node ./node_modules/typeorm/cli.js migration:run"
+   }
+}
