@@ -1,0 +1,150 @@
+/* Common */
+$svgSize: 21px;
+$tagWidth: 70px;
+$tagHeight: 20px;
+$tableEvenRowBgColor: #f0f3f8;
+$tableWaitRowBgColor: #cef3ce;
+$detailContainerHeight: 720px;
+$announceRowBgColor: #f9ebbe;
+$inquiryNewTagColor: #d4a612;
+
+/* lang tag colors */
+$jpTagColor: #1cb394;
+$enTagColor: #54c1ec;
+$koTagColor: #ec5454;
+$chTagColor: #f59a23;
+$chtTagColor: #d9cfc2;
+$inTagColor: #d9cfc2; // placeholder for now
+$viTagColor: #5f0aa6;
+$taTagColor: #d4a612;
+$spTagColor: #d9cfc2;
+
+/* Form */
+$formControlBorderRadius: 7px;
+$formSeparateColor: #707070;
+$inputBoxHeight: 45px;
+$inputNormalHeight: 36px;
+$inputFontSize: 13px;
+$formItemSpacing: 18px;
+$labelFontSize: 14px;
+$formLabelColor: #000000;
+$avatarSize: 160px;
+$btnFontSize: 14px;
+$btnSaveWidth: 180px;
+$notifyCheckboxPaddingLeft: 23px;
+$formContainerPadding: 20px;
+$formLabelLineHeight: 20px;
+$formLabelMgTop: 10px;
+$dialogFooterPadding: 15px;
+$dialogFooterLbMxWidth: 200px;
+
+/* Custom Variable */
+$contentBgColor: #F3F6F9;
+$logoSubtitleColor: #DCDCDC;
+
+$navbarHeight: 65px;
+$hamburgerSize: 90px;
+/* End Custom Variable */
+
+/* Primary Colors */
+$blue05: #F0F6FF;
+$blue10: #BCDAFF;
+$blue20: #89BDFF;
+$blue30: #5CA2FF;
+$blue40: #358BFA;
+$blue50: #1776F1;
+$blue60: #0064E5;
+
+/* Content Colors */
+$gray05: #F7F7F7;
+$gray10: #ECECEC;
+$gray20: #DFDFDF;
+$gray30: #CFCFCF;
+$gray40: #BCBCBC;
+$gray50: #A5A5A5;
+$gray60: #8A8A8A;
+$gray70: #6A6A6A;
+$gray80: #474747;
+$gray90: #222222;
+
+/* Line Colors */
+$blueLine60: #0064E5;
+$grayLine10: #ECECEC;
+$grayLine20: #DFDFDF;
+$grayLine70: #6A6A6A;
+
+// base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+// sidebar
+$sideBarFontSize: 15px;
+$sideBarTopPadding: 55px;
+
+$menuText:#FFFFFF;
+$menuActiveText:#FFFFFF;
+$subMenuActiveText:#f4f4f5;
+
+$menuBg:$blue30;
+$menuHover:$blue30;
+$menuActive: $blue30;
+
+$subMenuBg:$blue50;
+$subMenuHover:$blue40;
+$subMenuActive: $blue40;
+
+$sideBarWidth: 200px;
+
+/* main container */
+$mainContainerPadding: 35px;
+$mainContainerTitleFS: 22px;
+$mainContainerTitleMgBottom: 18px;
+$cardBoxRadius: 9px;
+$avatarContainer: 10px;
+
+/* dashboard */
+$dashboardRowMgBottom: 20px;
+$boardTitleFs: 18px;
+$boardInnerValFs: 32px;
+$boardInnerLabelFs: 12px;
+$listCardMgBottom: 20px;
+
+/* Detail Page */
+$detailContainerMg: 15px;
+$detailContainerRowSpacing: 18px;
+$detailContainerPadding: 10px;
+$detailInputFsColor: $gray80;
+$detailInputBgColor: $gray05;
+
+/* table list page */
+$searchboxMgBottom: 18px;
+$filterDivMgRight: 25px;
+$filterContainerMg: 10px;
+$tableHeaderFs: 18px;
+$editIconSize: 18px;
+
+$popupWidth: 1200px;
+$popupHeight: 700px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+
+  blue50: $blue50;
+  popupWidth: $popupWidth;
+  popupHeight: $popupHeight;
+}

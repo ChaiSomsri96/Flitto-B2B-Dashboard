@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="contacts-24px" transform="translate(11 11)">
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(-11 -11)" fill="none" stroke="#1776f1" stroke-width="1">
+      <rect width="52" height="52" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="51" height="51" rx="11.5" fill="none"/>
+    </g>
+    <path id="Path_89" data-name="Path 89" d="M0,0H30.484V30.484H0Z" fill="none"/>
+    <path id="Path_90" data-name="Path 90" d="M23.593,0H5.811a1.27,1.27,0,0,0,0,2.54H23.593a1.27,1.27,0,0,0,0-2.54ZM5.811,30.484H23.593a1.27,1.27,0,1,0,0-2.54H5.811a1.27,1.27,0,1,0,0,2.54Zm19.053-25.4H4.54A2.548,2.548,0,0,0,2,7.621V22.863A2.548,2.548,0,0,0,4.54,25.4H24.863a2.548,2.548,0,0,0,2.54-2.54V7.621A2.548,2.548,0,0,0,24.863,5.081ZM14.7,8.574a2.858,2.858,0,1,1-2.858,2.858A2.862,2.862,0,0,1,14.7,8.574Zm6.351,13.019H8.351V19.688c0-2.121,4.23-3.175,6.351-3.175s6.351,1.054,6.351,3.175Z" transform="translate(0.54)" fill="#1776f1"/>
+  </g>
+</svg>
