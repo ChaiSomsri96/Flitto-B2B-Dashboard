@@ -1,0 +1,53 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
+    "browserslist": "browserslist"
+  },
+  "browserslist": [
+    "last 2 version",
+    "android >= 4.4",
+    "IE >= 10"
+  ],
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/onesignal": "^3.0.0-beta.16",
+    "@nuxtjs/pwa": "^3.0.2",
+    "axios": "^0.20.0",
+    "chart.js": "^2.9.3",
+    "element-ui": "^2.13.2",
+    "file-saver": "^2.0.2",
+    "is-https": "^2.0.2",
+    "js-cookie": "^2.2.1",
+    "js-sha256": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.13.0",
+    "nuxt-i18n": "^6.13.1",
+    "path-to-regexp": "^2.4.0",
+    "sass-loader": "^9.0.1",
+    "svg-sprite-loader": "^4.2.1",
+    "vue-chartjs": "^3.5.0",
+    "vue-google-oauth2": "^1.5.5",
+    "vue-moment": "^4.1.0",
+    "vue2-editor": "^2.10.2",
+    "vuedraggable": "^2.24.0",
+    "xlsx": "^0.16.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "mockjs": "^1.1.0"
+  }
+}
